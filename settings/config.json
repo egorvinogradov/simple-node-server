@@ -1,0 +1,20 @@
+{
+    "errorPages": {
+        "404": "/404.html",
+        "500": "/500.html",
+        "default": "/500.html"
+    },
+    "staticServer": {
+        "defaultFileExtension": ".html",
+        "root": "./static",
+        "cache": 600
+    },
+    "api": {
+        "json": {
+            "urlPrefix": "/json"
+        },
+        "websockets": {
+            "urlPrefix": "/websockets"
+        }
+    }
+}
